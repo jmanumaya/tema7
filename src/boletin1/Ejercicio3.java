@@ -32,6 +32,8 @@ public class Ejercicio3 {
 		} catch (SQLException e) {
 			System.out.println(e);
 		}
+		
+		sc.close();
 	}
 
 }
