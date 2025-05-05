@@ -30,11 +30,11 @@ public class Ejercicio4 {
 				   Tecnología 1º.
 			*/
 
-		//	System.out.println(sent.executeUpdate("INSERT into Cursos (nombre, descripcion, año_escolar) values ('Historia 1º', 'Curso de Historia para el primer año', 2025)"));
-		//	System.out.println(sent.executeUpdate("INSERT into Cursos (nombre, descripcion, año_escolar) values ('Biología 1º', 'Curso de Biología para el primer año', 2025)"));
-		//	System.out.println(sent.executeUpdate("INSERT into Cursos (nombre, descripcion, año_escolar) values ('Educación Física 1º', 'Curso de Educación Física para el primer año', 2025)"));
-		//	System.out.println(sent.executeUpdate("INSERT into Cursos (nombre, descripcion, año_escolar) values ('Música 1º', 'Curso de Música para el primer año', 2025)"));
-		//	System.out.println(sent.executeUpdate("INSERT into Cursos (nombre, descripcion, año_escolar) values ('Tecnología 1º', 'Curso de Tecnología para el primer año', 2025)"));
+		//	System.out.println("Filas insertadas: " + sent.executeUpdate("INSERT into Cursos (nombre, descripcion, año_escolar) values ('Historia 1º', 'Curso de Historia para el primer año', 2025)"));
+		//	System.out.println("Filas insertadas: " + sent.executeUpdate("INSERT into Cursos (nombre, descripcion, año_escolar) values ('Biología 1º', 'Curso de Biología para el primer año', 2025)"));
+		//	System.out.println("Filas insertadas: " + sent.executeUpdate("INSERT into Cursos (nombre, descripcion, año_escolar) values ('Educación Física 1º', 'Curso de Educación Física para el primer año', 2025)"));
+		//	System.out.println("Filas insertadas: " + sent.executeUpdate("INSERT into Cursos (nombre, descripcion, año_escolar) values ('Música 1º', 'Curso de Música para el primer año', 2025)"));
+		//	System.out.println("Filas insertadas: " + sent.executeUpdate("INSERT into Cursos (nombre, descripcion, año_escolar) values ('Tecnología 1º', 'Curso de Tecnología para el primer año', 2025)"));
 			
 		} catch (SQLException e) {
 			System.out.println(e);

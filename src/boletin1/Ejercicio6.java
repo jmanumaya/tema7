@@ -24,7 +24,7 @@ public class Ejercicio6 {
 			
 			// 6. Súmale un punto a Ana González en Matemáticas 1º.
 			
-		//	System.out.println(sent.executeUpdate("UPDATE Calificaciones set nota = (nota + 1) where id_estudiante = 1 and id_curso = 1"));
+		//	System.out.println("Filas actualizadas: " + sent.executeUpdate("UPDATE Calificaciones set nota = (nota + 1) where id_estudiante = 1 and id_curso = 1"));
 			
 		} catch (SQLException e) {
 			System.out.println(e);

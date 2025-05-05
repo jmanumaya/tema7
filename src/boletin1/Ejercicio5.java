@@ -24,15 +24,15 @@ public class Ejercicio5 {
 			
 			// 5. Añade notas a los distintos alumnos de la base de datos para las distintas asignaturas.
 			
-		//	System.out.println(sent.executeUpdate("INSERT into Calificaciones (id_estudiante, id_curso, id_profesor, tipo_evaluacion, nota, fecha_evaluacion)"
+		//	System.out.println("Filas insertadas: " + sent.executeUpdate("INSERT into Calificaciones (id_estudiante, id_curso, id_profesor, tipo_evaluacion, nota, fecha_evaluacion)"
 		//			+ " values (1, 4, 1, 'Examen', 8.5, '2025-04-12')"));
-		//	System.out.println(sent.executeUpdate("INSERT into Calificaciones (id_estudiante, id_curso, id_profesor, tipo_evaluacion, nota, fecha_evaluacion)"
+		//	System.out.println("Filas insertadas: " + sent.executeUpdate("INSERT into Calificaciones (id_estudiante, id_curso, id_profesor, tipo_evaluacion, nota, fecha_evaluacion)"
 		//			+ " values (1, 5, 2, 'Examen', 9, '2025-05-12')"));
-		//	System.out.println(sent.executeUpdate("INSERT into Calificaciones (id_estudiante, id_curso, id_profesor, tipo_evaluacion, nota, fecha_evaluacion)"
+		//	System.out.println("Filas insertadas: " + sent.executeUpdate("INSERT into Calificaciones (id_estudiante, id_curso, id_profesor, tipo_evaluacion, nota, fecha_evaluacion)"
 		//			+ " values (2, 6, 1, 'Trabajo', 10, '2025-04-20')"));
-		//	System.out.println(sent.executeUpdate("INSERT into Calificaciones (id_estudiante, id_curso, id_profesor, tipo_evaluacion, nota, fecha_evaluacion)"
+		//	System.out.println("Filas insertadas: " + sent.executeUpdate("INSERT into Calificaciones (id_estudiante, id_curso, id_profesor, tipo_evaluacion, nota, fecha_evaluacion)"
 		//			+ " values (2, 7, 2, 'Trabajo', 7, '2025-06-01')"));
-		//	System.out.println(sent.executeUpdate("INSERT into Calificaciones (id_estudiante, id_curso, id_profesor, tipo_evaluacion, nota, fecha_evaluacion)"
+		//	System.out.println("Filas insertadas: " + sent.executeUpdate("INSERT into Calificaciones (id_estudiante, id_curso, id_profesor, tipo_evaluacion, nota, fecha_evaluacion)"
 		//			+ " values (3, 8, 1, 'Proyecto', 5, '2025-05-19')"));
 			
 		} catch (SQLException e) {

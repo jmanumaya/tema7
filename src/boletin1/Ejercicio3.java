@@ -24,10 +24,10 @@ public class Ejercicio3 {
 			
 			// 3. Realiza una eliminación de registro en las distintas tablas de la base de datos institutodb.
 			
-		//	System.out.println(sent.executeUpdate("DELETE from Matriculas where id_matricula = 5"));
-		//	System.out.println(sent.executeUpdate("DELETE from Estudiantes where id_estudiante = 4"));
-		//	System.out.println(sent.executeUpdate("DELETE from Profesores where id_profesor = 3"));
-		//	System.out.println(sent.executeUpdate("DELETE from Cursos where id_curso = 3"));
+		//	System.out.println("Filas eliminadas: " + sent.executeUpdate("DELETE from Matriculas where id_matricula = 5"));
+		//	System.out.println("Filas eliminadas: " + sent.executeUpdate("DELETE from Estudiantes where id_estudiante = 4"));
+		//	System.out.println("Filas eliminadas: " + sent.executeUpdate("DELETE from Profesores where id_profesor = 3"));
+		//	System.out.println("Filas eliminadas: " + sent.executeUpdate("DELETE from Cursos where id_curso = 3"));
 				
 		} catch (SQLException e) {
 			System.out.println(e);

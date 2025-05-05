@@ -24,10 +24,10 @@ public class Ejercicio2 {
 			
 			// 2. Realiza diversas actualizaciones en las distintas tablas de la base de datos institutodb.
 			
-		//	System.out.println(sent.executeUpdate("UPDATE Estudiantes Set apellido = 'Maya Hidalgo' where id_estudiante = 4"));
-		//	System.out.println(sent.executeUpdate("UPDATE Profesores Set email = 'david.bermudez@gmail.com' where id_profesor = 3"));
-		//	System.out.println(sent.executeUpdate("UPDATE Cursos Set nombre = 'DAM 1º' where id_curso = 3"));
-		//	System.out.println(sent.executeUpdate("UPDATE Matriculas Set fecha_matricula = '2024-07-15' where id_matricula = 5"));
+		//	System.out.println("Filas actualizadas: " + sent.executeUpdate("UPDATE Estudiantes Set apellido = 'Maya Hidalgo' where id_estudiante = 4"));
+		//	System.out.println("Filas actualizadas: " + sent.executeUpdate("UPDATE Profesores Set email = 'david.bermudez@gmail.com' where id_profesor = 3"));
+		//	System.out.println("Filas actualizadas: " + sent.executeUpdate("UPDATE Cursos Set nombre = 'DAM 1º' where id_curso = 3"));
+		//	System.out.println("Filas actualizadas: " + sent.executeUpdate("UPDATE Matriculas Set fecha_matricula = '2024-07-15' where id_matricula = 5"));
 			
 		} catch (SQLException e) {
 			System.out.println(e);
