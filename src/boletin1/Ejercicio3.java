@@ -22,7 +22,7 @@ public class Ejercicio3 {
 			
 			Statement sent = con.createStatement();
 			
-			// Pruebas de DELETES... (Desde Matriculas antes porque hay restricciones)
+			// 3. Realiza una eliminación de registro en las distintas tablas de la base de datos institutodb.
 			
 		//	System.out.println(sent.executeUpdate("DELETE from Matriculas where id_matricula = 5"));
 		//	System.out.println(sent.executeUpdate("DELETE from Estudiantes where id_estudiante = 4"));

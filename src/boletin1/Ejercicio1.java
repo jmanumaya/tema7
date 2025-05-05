@@ -27,6 +27,8 @@ public class Ejercicio1 {
 			
 			// Uso el metodo executeUpdate para poder realizar los insert solicitados. (con este metodo tambien puedo usar UPDATE y DELETE)
 			
+			// 1. Realiza diversas inserciones en las distintas tablas de la base de datos institutodb.
+			
 		//	System.out.println(sent.executeUpdate("INSERT into Estudiantes (nombre, apellido, fecha_nacimiento, email, telefono) values ('Jose Manuel', 'Maya', '2005-09-15', 'jmayahidal@gmail.com', 629263572)"));
 		//	System.out.println(sent.executeUpdate("INSERT into Profesores (nombre, apellido, especialidad, email) values ('David', 'Bermúdez', 'Bootstrap', 'david.bermudez@iesnervion.es')"));
 		//	System.out.println(sent.executeUpdate("INSERT into Cursos (nombre, descripcion, año_escolar) values ('Primero DAM', 'Primero año del curso de Desarrollo de Aplicaciones Multiplataformas', 2024)"));

@@ -22,7 +22,7 @@ public class Ejercicio5 {
 			
 			Statement sent = con.createStatement();
 			
-			// Prueba de añadir notas a los distintos alumnos en las distintas asignaturas (las añadidas en el ejericio 4)
+			// 5. Añade notas a los distintos alumnos de la base de datos para las distintas asignaturas.
 			
 		//	System.out.println(sent.executeUpdate("INSERT into Calificaciones (id_estudiante, id_curso, id_profesor, tipo_evaluacion, nota, fecha_evaluacion)"
 		//			+ " values (1, 4, 1, 'Examen', 8.5, '2025-04-12')"));

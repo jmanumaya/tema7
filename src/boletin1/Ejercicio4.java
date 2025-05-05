@@ -21,6 +21,14 @@ public class Ejercicio4 {
 			System.out.println("Conexión Realizada Correctamente");
 			
 			Statement sent = con.createStatement();
+			
+			/*4. Inserta los siguientes cursos en la base de datos institutodb:
+				   Historia 1º.
+				   Biología 1º.
+				   Educación Física 1º.
+				   Música 1º.
+				   Tecnología 1º.
+			*/
 
 		//	System.out.println(sent.executeUpdate("INSERT into Cursos (nombre, descripcion, año_escolar) values ('Historia 1º', 'Curso de Historia para el primer año', 2025)"));
 		//	System.out.println(sent.executeUpdate("INSERT into Cursos (nombre, descripcion, año_escolar) values ('Biología 1º', 'Curso de Biología para el primer año', 2025)"));

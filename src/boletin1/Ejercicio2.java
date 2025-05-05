@@ -22,7 +22,7 @@ public class Ejercicio2 {
 			
 			Statement sent = con.createStatement();
 			
-			// Pruebas de UPDATES
+			// 2. Realiza diversas actualizaciones en las distintas tablas de la base de datos institutodb.
 			
 		//	System.out.println(sent.executeUpdate("UPDATE Estudiantes Set apellido = 'Maya Hidalgo' where id_estudiante = 4"));
 		//	System.out.println(sent.executeUpdate("UPDATE Profesores Set email = 'david.bermudez@gmail.com' where id_profesor = 3"));
