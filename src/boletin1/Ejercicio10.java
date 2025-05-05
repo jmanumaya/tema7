@@ -24,7 +24,8 @@ public class Ejercicio10 {
 		try(Connection con = DriverManager.getConnection(url, usuario, pass)){
 			System.out.println("Conexión Realizada Correctamente");
 			
-			/*9. Mostrar el nombre y fecha de nacimiento de todos los alumnos.*/
+			/*10. Realiza una aplicación que muestre el nombre y 
+			 *    fecha de nacimiento de los alumnos de un curso introducido por teclado.*/
 			
 			PreparedStatement ps = con.prepareStatement("Select e.nombre, e.fecha_nacimiento from Estudiantes as e "
 					+ "inner join Matriculas as m "
