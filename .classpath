@@ -6,5 +6,7 @@
 		</attributes>
 	</classpathentry>
 	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="lib" path="C:/Users/jmaya/Downloads/jcurses-windows-0.9.5b/jcurses/lib/jcurses.jar"/>
+	<classpathentry kind="lib" path="C:/Users/jmaya/Downloads/mysql-connector-j-9.2.0.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
