@@ -43,11 +43,11 @@ public class Ejercicio7 {
 			System.out.print("Telefono del Alumno: ");
 			telefono = sc.nextInt();
 			
-			// Forma diría normal:
+			// Forma diría normal y rapida:
 			
 			// System.out.println("Filas insertadas: " + sent.executeUpdate("INSERT into Estudiantes (nombre, apellido, fecha_nacimiento, email, telefono) values ('" + nombre + "', '" + apellido + "', '" + fechaNacimiento + "', '" + email + "', " + telefono + ")"));
 			
-			// Mejor Forma (intentando evitar inyecciones):
+			// Mejor Forma (intentando evitar inyecciones o mas segura):
 			
 			// Los ? son marcadores de posicion (indico que luego voy a insertar los valores con set (ps.set(tipo)))
 			String sql = "INSERT INTO Estudiantes (nombre, apellido, fecha_nacimiento, email, telefono) VALUES (?, ?, ?, ?, ?)";
